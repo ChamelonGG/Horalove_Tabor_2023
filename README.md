@@ -6,7 +6,7 @@ Určeno k užítí v etapové hře na **Horalském táboře 2023**.
 
 Interní logika pumy psána pro CircuitPython 8.2.0 na Pi Pico a Pi Pico W
 
-Obsah všech rekreovaných modulů **(viz složka modules)**:
+### Obsah všech rekreovaných modulů **(viz složka modules)**:
 - Hieroglyfy
 - Bludiště
 - Morseova klávesnice
@@ -14,7 +14,7 @@ Obsah všech rekreovaných modulů **(viz složka modules)**:
 - Dráty
 - "Jakub" řekl (Siamon Says)
 
-Využité moduly:
+### Využité moduly:
 1. Displeje
 - GC9A01 (SPI 240x240 kruhový LCD displej)
 - ST7735S (SPI 128x64 obdélníkový LCD displej)
