@@ -1,4 +1,4 @@
-# HORALOVE TABOR 2023
+# HORALOVÉ TÁBOR 2023
 ## Loupení z trezoru - Puma
 
 Repozitář obsahuje rekreace modulů ze hry KTANE **(Keep talking and nobody explodes)**.
