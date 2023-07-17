@@ -1,0 +1,2 @@
+circuitpython==8.2.0
+gc9a01
