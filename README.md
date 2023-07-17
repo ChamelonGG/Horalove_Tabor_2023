@@ -7,11 +7,11 @@ Určeno k užítí v etapové hře na **Horalském táboře 2023**.
 Interní logika pumy psána pro CircuitPython 8.2.0 na Pi Pico a Pi Pico W
 
 ### Obsah všech rekreovaných modulů **(viz složka modules)**:
-- Hieroglyfy
+- Hieroglyfy >funkční prototyp<
 - Bludiště
-- Morseova klávesnice
+- Morseova klávesnice >probíhá<
 - Napěťové dělení
-- Dráty
+- Dráty >funkční prototyp<
 - "Jakub" řekl (Siamon Says)
 
 ### Využité moduly:
