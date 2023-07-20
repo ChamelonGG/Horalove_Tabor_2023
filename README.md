@@ -1,3 +1,5 @@
+# Všichni ne vedoucí Horalové opusťte tento repozitář prosím!
+
 # HORALOVÉ TÁBOR 2023
 ## Loupení z trezoru - Puma
 
