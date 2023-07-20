@@ -9,10 +9,10 @@ Interní logika pumy psána pro CircuitPython 8.2.0 na Pi Pico a Pi Pico W
 ### Obsah všech rekreovaných modulů **(viz složka modules)**:
 - Hieroglyfy >funkční prototyp<
 - Bludiště
-- Morseova klávesnice >probíhá<
-- Napěťové dělení
+- Morseova klávesnice >funkční prototyp<
+- Napěťové dělení >právě probíhá<
 - Dráty >funkční prototyp<
-- "Jakub" řekl (Siamon Says)
+- "Jakub" řekl (Siamon Says) >zrušeno<
 
 ### Využité moduly:
 1. Displeje
