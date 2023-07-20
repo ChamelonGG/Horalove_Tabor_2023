@@ -111,7 +111,7 @@ while True:
                 if signal == "-":
                     onDuration = .6
                 else:
-                    onDuration = .3
+                    onDuration = .15
                 now = time.monotonic()
                 if not led.value:
                     #Is it time to turn on?
