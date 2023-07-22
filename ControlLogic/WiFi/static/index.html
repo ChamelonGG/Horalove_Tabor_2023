@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head><title>CircuitPython HTTP Server</title></head>
+<style>
+    body{
+        background-color: black;
+    }
+    #timer {
+        color: white;
+        font-family: SevenSegment;
+        font-size: 50px
+    }
+    h1 {
+        font-family: SevenSegment14;
+        font-size: 50px
+    }
+    #strikes {
+        font-weight: bolder;
+        color: white;
+        font-family: SevenSegment14;
+        font-size: 30px
+    }
+    @font-face {
+        font-family: SevenSegment;
+        src: url(/DSEG7Modern-Regular.ttf);
+    }
+    @font-face {
+        font-family: SevenSegment14;
+        src: url(/DSEG14Classic-Regular.ttf);
+    }
+</style>
+<body>
+<script>
+async function getData(){
+    const info = document.getElementById("info")
+    const ps = document.getElementById("strikes")
+    const p = document.getElementById("timer")
+    try {    
+        let response = await fetch("/bombData")
+        let data = await response.json()
+        ps.innerHTML = data[0].strikes
+        p.innerHTML = data[0].timeLeft
+        info.innerHTML = "CONNECTED"
+        info.style.color = "green"
+    } catch (error) {
+        info.innerHTML = "DISCONNECTED"
+        info.style.color = "red"
+    }
+    }
+setInterval(getData,400)
+</script>
+<h1 id="info">CircuitPython HTTP Server</h1>
+<center>
+    <p id="strikes">Hello from CircuitPython!</p>
+    <p id="timer">Hello from CircuitPython!</p>
+</center>
+</body>
+</html>
