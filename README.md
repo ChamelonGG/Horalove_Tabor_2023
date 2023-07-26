@@ -8,12 +8,14 @@ Určeno k užítí v etapové hře na **Horalském táboře 2023**.
 
 Interní logika pumy psána pro CircuitPython 8.2.0 na Pi Pico a Pi Pico W
 
+## STATUS: HOTOVO
+
 ### Obsah všech rekreovaných modulů **(viz složka ./Modules)**:
-- Hieroglyfy >funkční prototyp<
+- Hieroglyfy >integrováno<
 - <s>Bludiště >zrušeno<</s>
-- Morseova klávesnice >funkční prototyp<
-- Napěťové dělení >integrováno<
-- Dráty >integrováno<
+- Morseova klávesnice >integrováno<
+- <s>Napěťové dělení >zrušeno<</s>
+- <s>Dráty >zrušeno<</s>
 - <s>"Jakub" řekl (Siamon Says) >zrušeno<</s>
 
 - Časovač >integrováno<
@@ -22,17 +24,17 @@ Interní logika pumy psána pro CircuitPython 8.2.0 na Pi Pico a Pi Pico W
 - GC9A01 (SPI 240x240 kruhový LCD displej)
 - <s>ST7735S (SPI 128x64 obdélníkový LCD displej)</s>
 - SSD1306 (I2C 128x64 obdélníkový OLED displej)
-- SSD1306 (I2C 64x32 obdélníkový OLED displej)
+- <s>SSD1306 (I2C 128x32 obdélníkový OLED displej)</s>
 2. Bezdrátové připojení
 - Infineon CYW43439 (SPI 802.11n, BLE 5.2)
 3. Ostatní aktivní komponenty
-- Neopixel LED
+- <s>Neopixel LED</s>
 - Barevné LED 
 4. Pasivní komponenty
 - <s>Resitory ruzných hodnot</s>
 5. Vstupní zařízení
 - Rotační enkodér 
 - Tlačitkový membránový matrix 4x3
-- Potenciometr 10kohm
+- <s>Potenciometr 10kohm</s>
 - <s>Joystick 2 osý</s>
-- Mechanická tlačítka
+- <s>Mechanická tlačítka</s>
